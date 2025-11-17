@@ -1,14 +1,27 @@
 #pragma once
 #include "../data/vectors.hpp"
+#include <vector>
+#include "enchantments.hpp"
 
-typedef struct {
+class weapon {
     i32 dmg;
     i32 weight;
     i32 condition;
-
+    
     u32 iconID;
     u32 modelID;
-} weapon;
+
+    std::vector<enchantments> enchantmentsList;
+
+    weapon(i32 Idmg, i32 Iweight, i32 Icondition, u32 IiconID, u32 ImodelID, std::vector<enchantments> Ienchantments) {
+        dmg = Idmg;
+        weight = Iweight;
+        condition = Icondition;
+        iconID = IiconID;
+        modelID = ImodelID;
+        enchantmentsList = Ienchantments;
+    }
+};
 
 typedef struct {
     u16 positionOnBody;

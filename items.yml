@@ -1,0 +1,2 @@
+weapons:
+ -longsword_iron: [dmg: 10, weight: 5, condition: 100, iconID: 0, modelID: 0]
