@@ -1,5 +1,5 @@
 #pragma once
-#include "types.h"
+#include "types.hpp"
 typedef struct {
     i32 x;
     i32 y;

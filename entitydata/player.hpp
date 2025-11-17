@@ -1,6 +1,6 @@
 #pragma once
-#include "../data/vectors.h"
-#include "item.h"
+#include "../data/vectors.hpp"
+#include "item.hpp"
 
 typedef struct {
     v3 position;

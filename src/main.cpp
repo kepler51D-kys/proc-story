@@ -9,7 +9,7 @@
 #include <stdbool.h>
 #include <stdio.h>
 
-#include "../rendering/renderer.h"
+#include "../rendering/renderer.hpp"
 
 int main() {
 

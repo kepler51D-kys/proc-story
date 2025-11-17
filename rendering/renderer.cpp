@@ -1,8 +1,8 @@
-#include "renderer.h"
+#include "renderer.hpp"
 #include <SDL2/SDL_error.h>
 #include <SDL2/SDL_render.h>
 #include <SDL2/SDL_video.h>
-#include "../data/types.h"
+#include "../data/types.hpp"
 
 const u32 screenHeight = 720;
 const u32 screenWidth = 1280;
