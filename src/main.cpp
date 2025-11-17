@@ -13,8 +13,6 @@
 #include "../entitydata/player.hpp"
 
 int main() {
-    item newItem;
-    // newItem.clothing = (clothing)0;
     SDL_Window* window;
     SDL_Renderer* renderer;
     if (allInit(&window, &renderer)) {

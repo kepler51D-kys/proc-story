@@ -1,19 +1,6 @@
 #pragma once
 #include "../data/vectors.hpp"
 
-typedef enum {
-    bodyPart_left_hand = 1,
-    bodyPart_right_hand = 2,
-    bodyPart_left_arm = 4,
-    bodyPart_right_arm = 8,
-    bodyPart_left_leg = 16,
-    bodyPart_right_leg = 32,
-    bodyPart_left_foot = 64,
-    bodyPart_right_foot = 128,
-    bodyPart_torso = 256,
-    bodyPart_head = 512,
-} bodyPart;
-
 typedef struct {
     i32 dmg;
     i32 weight;
@@ -41,8 +28,8 @@ typedef enum {
 
 typedef struct {
     union {
-        clothing;
-        weapon;
+        clothing Clothing;
+        weapon Weapon;
     };
     itemtype type;
 } item;

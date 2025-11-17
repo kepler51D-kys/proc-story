@@ -2,15 +2,21 @@ main: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
-  CMakeFiles/main.dir/rendering/renderer.c.o \
-  CMakeFiles/main.dir/src/main.c.o \
+  CMakeFiles/main.dir/rendering/renderer.cpp.o \
+  CMakeFiles/main.dir/src/main.cpp.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libSDL2_image.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libSDL2.so \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libstdc++.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so \
+  /usr/lib/libm.so.6 \
+  /usr/lib/libmvec.so.1 \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so.1 \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libc.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libc.so \
@@ -18,11 +24,11 @@ main: \
   /usr/lib/libc.so.6 \
   /usr/lib/libc_nonshared.a \
   /usr/lib/ld-linux-x86-64.so.2 \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so.1 \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o \
@@ -41,17 +47,12 @@ main: \
   /usr/lib/ld-linux-x86-64.so.2 \
   /usr/lib32/libz.so.1 \
   /usr/lib/libz.so.1 \
-  /usr/lib32/libm.so.6 \
-  /usr/lib/libm.so.6 \
   /usr/lib/libjxl_cms.so.0.11 \
   /usr/lib/libhwy.so.1 \
   /usr/lib32/libbrotlidec.so.1 \
   /usr/lib/libbrotlidec.so.1 \
   /usr/lib32/libbrotlienc.so.1 \
   /usr/lib/libbrotlienc.so.1 \
-  /usr/lib32/libstdc++.so.6 \
-  /usr/lib/libstdc++.so.6 \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so.1 \
   /usr/lib/libdeflate.so.0 \
   /usr/lib/libjbig.so.2.1 \
   /usr/lib32/liblzma.so.5 \
@@ -74,15 +75,25 @@ main: \
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o:
 
-CMakeFiles/main.dir/rendering/renderer.c.o:
+CMakeFiles/main.dir/rendering/renderer.cpp.o:
 
-CMakeFiles/main.dir/src/main.c.o:
+CMakeFiles/main.dir/src/main.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libSDL2_image.so:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libSDL2.so:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libstdc++.so:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so:
+
+/usr/lib/libm.so.6:
+
+/usr/lib/libmvec.so.1:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so:
 
@@ -91,6 +102,8 @@ CMakeFiles/main.dir/src/main.c.o:
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so.1:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
 
@@ -106,8 +119,6 @@ CMakeFiles/main.dir/src/main.c.o:
 
 /usr/lib/ld-linux-x86-64.so.2:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so:
@@ -115,6 +126,8 @@ CMakeFiles/main.dir/src/main.c.o:
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so.1:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
 
@@ -152,10 +165,6 @@ CMakeFiles/main.dir/src/main.c.o:
 
 /usr/lib/libz.so.1:
 
-/usr/lib32/libm.so.6:
-
-/usr/lib/libm.so.6:
-
 /usr/lib/libjxl_cms.so.0.11:
 
 /usr/lib/libhwy.so.1:
@@ -167,12 +176,6 @@ CMakeFiles/main.dir/src/main.c.o:
 /usr/lib32/libbrotlienc.so.1:
 
 /usr/lib/libbrotlienc.so.1:
-
-/usr/lib32/libstdc++.so.6:
-
-/usr/lib/libstdc++.so.6:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so.1:
 
 /usr/lib/libdeflate.so.0:
 
