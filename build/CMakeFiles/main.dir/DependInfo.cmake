@@ -8,9 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/matthew/Desktop/programming/proc-story/rendering/renderer.c" "CMakeFiles/main.dir/rendering/renderer.c.o" "gcc" "CMakeFiles/main.dir/rendering/renderer.c.o.d"
-  "/home/matthew/Desktop/programming/proc-story/src/main.c" "CMakeFiles/main.dir/src/main.c.o" "gcc" "CMakeFiles/main.dir/src/main.c.o.d"
-  "" "main" "gcc" "CMakeFiles/main.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

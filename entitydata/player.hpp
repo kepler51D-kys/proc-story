@@ -5,4 +5,5 @@
 typedef struct {
     v3 position;
     float health;
+    
 } player;

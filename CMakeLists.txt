@@ -11,26 +11,22 @@ set(CMAKE_C_STANDARD_REQUIRED ON)
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(SDL2 REQUIRED sdl2 SDL2_image)
 
-# Define folders to search for source files (relative to source directory)
 set(SOURCE_FOLDERS "." "rendering" "src")
 
-# Collect all C source files from the specified folders
 set(C_FILES "")
 foreach(folder ${SOURCE_FOLDERS})
-    # Use CMAKE_SOURCE_DIR to make paths relative to the source directory
     set(full_path ${CMAKE_SOURCE_DIR}/${folder})
     if(EXISTS ${full_path} AND IS_DIRECTORY ${full_path})
-        file(GLOB folder_sources "${full_path}/*.c")
+        file(GLOB folder_sources "${full_path}/*.cpp")
         list(APPEND C_FILES ${folder_sources})
     else()
         message(WARNING "Folder '${full_path}' does not exist")
     endif()
 endforeach()
 
-# Check if we found any source files
 list(LENGTH C_FILES NUM_SOURCES)
 if(NUM_SOURCES EQUAL 0)
-    message(FATAL_ERROR "Error: No .c files found in the specified folders")
+    message(FATAL_ERROR "Error: No .cpp files found in the specified folders")
 endif()
 
 # Print the files being compiled

@@ -23,7 +23,8 @@ typedef struct {
     u32 modelID;
 } weapon;
 
-class clothing {
+typedef struct {
+    u16 positionOnBody;
     i32 insulation;
     i32 protection;
     i32 weight;
@@ -31,9 +32,20 @@ class clothing {
 
     u32 iconID;
     u32 modelID;
-};
+} clothing;
 
+typedef enum {
+    itemtype_clothing,
+    itemtype_weapon,
+} itemtype;
 
+typedef struct {
+    union {
+        clothing;
+        weapon;
+    };
+    itemtype type;
+} item;
 
 /* 
 todo:
